@@ -1,0 +1,122 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  font-family: 'myFont', sans-serif;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(brandon_med_it.otf);
+}
+
+p{
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.col-sm-12{
+  padding: 0;
+  height: 100%;
+}
+
+.row{
+  margin: 0;
+  height: 100%;
+}
+
+#app {
+  height: calc(100% - 50px);
+  margin: 0;
+  padding: 0;
+}
+
+ #app section {
+   display: none;
+   height: 100%;
+ }
+
+#app section .item{
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#app section#home{
+  background-image: url("notte_nuvoloso.jpg");
+  color: #fff;
+}
+
+#app section#home p{
+  font-size: 17px;
+}
+
+
+#logo img {
+  width: 260px;
+}
+
+
+
+.centered-holder {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+}
+
+
+footer {
+  background-color: #8fb596;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+
+}
+
+footer a {
+  color: rgba(255,255,255,0.6);
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 2em;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+body.section-home .link-home{
+  display: none;
+}
+
+
+body.section-info .link-info{
+  display: none;
+}
+
+
+.centered {
+  position: absolute;
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}

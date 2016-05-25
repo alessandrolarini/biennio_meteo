@@ -1,0 +1,263 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(brandon_med_it.otf);
+}
+
+p{
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.col-sm-12{
+  padding: 0;
+  height: 100%;
+}
+
+.row{
+  margin: 0;
+  height: 100%;
+}
+
+#app {
+  height: calc(100% - 50px);
+  margin: 0;
+  padding: 0;
+}
+
+ #app section {
+   display: none;
+   height: 100%;
+   overflow: hidden;
+ }
+
+#app section .item{
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#app section#home{
+  color: #fff;
+}
+
+#app section#home p{
+  font-size: 17px;
+}
+
+
+#logo img {
+  width: 260px;
+}
+
+
+
+.centered-holder {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+}
+
+.centered img
+{
+  width: 100%;
+}
+
+
+footer {
+  background-color: #ccc;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+
+}
+
+footer a {
+  color: rgba(255,255,255,0.6);
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 2em;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+body.section-home .link-home{
+  display: none;
+}
+
+
+body.section-info .link-info{
+  display: none;
+}
+
+
+.centered {
+  position: absolute;
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+
+#home
+{
+  background-color: #5C8BAA;
+
+}
+
+#home .content {
+  position: relative;
+  height: 100%;
+}
+
+#home .content #background,
+#home .content #weather{
+  position: absolute;
+}
+
+#home .content #background {
+
+}
+
+#home .content #background #scene{
+  margin-left: -20%;
+}
+
+#home .content #weather {
+
+}
+
+#background #scene
+{
+  position: relative;
+  bottom: 130px;
+}
+
+/* WEATHER  */
+
+.weather {
+  text-align: center;
+}
+
+/*.weather-icon {
+  /*border: 1px solid red;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+*/
+#today {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  color: #547F9E;
+  border-radius: 200px;
+  margin-bottom: 100px;
+}
+
+#today .weather-icon {
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+#forecast {
+  white-space: nowrap;
+  padding: 0;
+  margin-left: 18px;
+}
+
+#forecast li
+{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+#forecast .weather-icon {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+
+}
+@media only screen and (min-width: 768px)  {
+  #forecast .weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.weather-1 .weather-icon{
+  background-image: url("../img/icone/nuvoloso.png")
+}
+
+.weather-2 .weather-icon{
+  background-image: url("../img/icone/nuvoloso2.png")
+}
+
+.weather-3 .weather-icon{
+  background-image: url("../img/icone/nuvoloso3.png")
+}
+
+.weather-4 .weather-icon{
+  background-image: url("../img/icone/nuvoloso4.png")
+}
+
+#dati
+{ 
+  position: relative;
+  top: -90px;
+}
+
+.temp li
+{
+  display: inline-block;
+  padding-left: 0px;
+
+}
+
+.temp ul {
+  padding: 0;
+}
+
+.city{
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  top: 70px;
+}
